@@ -1,70 +1,185 @@
-# Getting Started with Create React App
+# 📌 TalentTrack – Job Search & Recruitment Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TalentTrack is a **student-centric job search and recruitment platform** designed to simplify the career journey of fresh graduates and early-career professionals.  
+Built using **ReactJS (frontend)** and **Django REST Framework (backend)**, the platform provides:
 
-## Available Scripts
+- Skill-based job filtering  
+- Resume upload & management  
+- Secure OTP-based authentication  
+- Interview preparation resources  
+- Simple and clean UI  
 
-In the project directory, you can run:
+TalentTrack solves the limitations of traditional recruiter-oriented portals by offering a **personalized, transparent, and easy-to-use platform exclusively for students**.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🎯 User & Account
+- Email-based OTP authentication  
+- JWT-secured login sessions  
+- User profile management  
+- Settings & notifications  
 
-### `npm test`
+### 📄 Resume Management
+- Upload/download PDF/DOCX resumes  
+- Secure file storage  
+- Easy update/delete functionality  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🧠 Skill Management
+- Add / edit / delete skills  
+- Upload skill certificates (PDF/JPG)  
+- Verified skill tracking  
+- Skill-based job filtering  
 
-### `npm run build`
+### 💼 Job Search Module
+- Curated job recommendations based on user skills  
+- Job listing with search & apply  
+- Clean job card UI  
+- Apply via redirect or saved jobs  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 📘 Interview Preparation
+Topic-wise materials including:  
+- Java  
+- Python  
+- DSA  
+- DBMS  
+- Cloud  
+- Aptitude  
+- Downloadable PDFs and notes  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🧪 Assessment Module
+- Direct access to HackerRank certifications  
+- Skill tracking via external assessments  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 📞 Help & Support
+- FAQs  
+- Support email  
+- Simple help section  
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### **Frontend**
+- ReactJS  
+- JavaScript (ES6+)  
+- Tailwind CSS  
+- Axios  
+- React Router  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### **Backend**
+- Django  
+- Django REST Framework  
+- Django ORM  
+- JWT Authentication  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### **Database**
+- SQLite3 (development)  
+- PostgreSQL (future upgrade)  
 
-## Learn More
+### **Tools**
+- VS Code  
+- Git & GitHub  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🏗️ System Architecture
+- Modular, scalable layered architecture  
+- React frontend ↔ Django REST API  
+- Clear separation of concerns  
+- Media storage for resumes & certificates  
+- Secure JWT-based communication  
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🔐 API Endpoints (Key Endpoints)
 
-### Analyzing the Bundle Size
+| Feature | Endpoint | Method | Description |
+|--------|----------|--------|-------------|
+| Send OTP | `/send-otp-registration/` | POST | OTP for registration |
+| Login OTP | `/send-otp-login/` | POST | OTP login |
+| Verify OTP | `/verify-otp/` | POST | Verify user |
+| Register | `/register/` | POST | Create user |
+| Get Skills | `/skills/` | GET | Fetch user skills |
+| Add Skill | `/skills/add/` | POST | Add skill |
+| Delete Skill | `/skills/delete/<id>/` | DELETE | Delete skill |
+| Upload Resume | `/resume/upload/` | POST | Upload resume |
+| Download Resume | `/resume/download/` | GET | Get resume |
+| Job Listings | `/jobs/skillbased/` | GET | Skill-based job suggestions |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🧩 Core Modules Implemented
+- OTP + JWT authentication  
+- Resume management  
+- Skill CRUD with certificate verification  
+- Interview preparation module  
+- Assessments (HackerRank)  
+- Skill-based job filtering  
+- Notifications & settings  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🧪 Result Highlights
+- Fully functional full-stack web application  
+- Clean, responsive UI  
+- Resume upload/download working seamlessly  
+- Skill-based filtering tested successfully  
+- Secure OTP + JWT flow implemented  
+- Backend modular & scalable  
+- Interview preparation resources accessible  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 📈 Learning Outcomes
+- Full-stack development (React + Django)  
+- Designing REST APIs using DRF  
+- State management in React  
+- Secure file handling (media storage)  
+- JWT authentication architecture  
+- Integration with external platforms  
+- Debugging, testing & API handling  
+- Writing clean documentation  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 🚧 Challenges Faced
+- OTP expiration & timing issues  
+- Token handling before JWT  
+- Resume upload configuration  
+- CORS issues between React & Django  
+- Efficient job filtering logic  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+All issues were resolved with stable fixes.
+
+---
+
+## 🔮 Future Scope
+TalentTrack can be expanded with:
+
+- AI-powered job recommendations  
+- Skill gap detection & course suggestions  
+- Internship portal  
+- Recruiter dashboard  
+- Virtual career fairs  
+- Mobile app (React Native)  
+- External job API integrations  
+- Explainable AI-based recommendations  
+- Student–recruiter communication system  
+
+TalentTrack aims to evolve into a complete **employability ecosystem**.
+
+---
+
+## 👨‍💻 Developed By — Team 57, SR University
+- D. Srawik  
+- **Md. Moiz Ur Rehman**  
+- V. Sai Raj  
+- R. Shrujan  
+- A. Vaninath  
+
+**Guide:**  
+Dr. S. Jamalaiah, Assistant Professor, School of CS & AI  
+
+---
