@@ -1,184 +1,224 @@
-<!-- PROJECT LOGO -->
-<p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/3135/3135692.png" alt="Logo" width="120">
-</p>
+📌 TalentTrack – Job Search & Recruitment Platform
 
-<h1 align="center">🎯 TalentTrack – Job Search & Recruitment Platform</h1>
+TalentTrack is a student-centric job search and recruitment platform designed to simplify the career journey of fresh graduates and early-career professionals.
+Developed as a full-stack web application using ReactJS (frontend) and Django REST Framework (backend), TalentTrack focuses on skill-based job filtering, resume management, secure authentication, and interview preparation.
 
-<p align="center">
-  A student-centric job search platform built using <b>React + Django</b>, offering skill-based job filtering,<br/>
-  resume management, secure OTP authentication, interview preparation & more.
-</p>
+TalentTrack solves the limitations of traditional recruiter-oriented portals by providing a clean, personalized, transparent, and user-friendly platform exclusively for students.
 
----
+🚀 Features
+🎯 User & Account
 
-## 🚀 **Badges**
+Email-based OTP authentication
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-18.0-blue?logo=react" />
-  <img src="https://img.shields.io/badge/Django-REST%20API-green?logo=django" />
-  <img src="https://img.shields.io/badge/SQLite-Database-blue?logo=sqlite" />
-  <img src="https://img.shields.io/badge/Status-Active-success" />
-  <img src="https://img.shields.io/badge/Full--Stack-Project-orange" />
-  <img src="https://img.shields.io/badge/License-Open%20Source-purple" />
-</p>
+JWT-secured login sessions
 
----
+User profile management
 
-## 📌 **Overview**
+Settings & notifications
 
-TalentTrack is a full-stack web platform designed to simplify job searching for **students and fresh graduates**.  
-Instead of recruiter-centric portals, TalentTrack provides:
+📄 Resume Management
 
-✔ Skill-matched job recommendations  
-✔ Resume upload & management  
-✔ Interview preparation resources  
-✔ Simple & transparent UI/UX  
-✔ OTP + JWT secure authentication  
+Upload/download PDF/DOCX resumes
 
----
+Secure file storage & handling
 
-## 🖼️ **Project Preview (Screenshots)**
+Easy update/delete functionality
 
-> You can upload real screenshots later — placeholders added.
+🧠 Skill Management
 
-| Home Page | Resume Upload | Job Listings |
-|----------|---------------|--------------|
-| ![Home](https://via.placeholder.com/300x160?text=Home+Screenshot) | ![Resume](https://via.placeholder.com/300x160?text=Resume+Upload) | ![Jobs](https://via.placeholder.com/300x160?text=Job+Listings) |
+Add / edit / delete skills
 
----
+Skill certificate upload (PDF/JPG)
 
-## 🌟 **Key Features**
+Verified skill tracking
 
-### 🔐 **Authentication**
-- Email-based OTP login
-- JWT-secured sessions
-- Protected user routes
+Skill-based job filtering
 
-### 🧠 **Skills & Certificates**
-- Add / delete / update user skills  
-- Upload certificates (PDF/JPG)  
-- Verified skill tracking  
-- Real-time job filtering based on skills  
+💼 Job Search Module
 
-### 📄 **Resume Module**
-- Upload, update, download resumes  
-- Secure media handling in Django  
-- Validations on file format & size  
+Skill-based curated job recommendations
 
-### 💼 **Job Search**
-- Personalized job recommendations  
-- Clean job card UI  
-- "Apply Now" redirects  
-- Search & filtering  
+Job listing with search & apply
 
-### 🎓 **Interview Preparation**
-- Topic-wise structured content  
-- PDFs for: Java, Python, DSA, DBMS, Cloud, Aptitude  
+Clean job card UI
 
-### 🧪 **Assessments**
-- HackerRank certification redirect  
-- Track assessment attempts  
+Apply through redirects or saved jobs
 
-### 💬 **Help & Support**
-- FAQ  
-- Support email  
-- Simple contact workflow  
+📘 Interview Preparation
 
----
+Topic-wise preparation materials like:
 
-## 🛠️ **Tech Stack**
+Java
 
-### **Frontend**
-<p align="left">
-  <img src="https://img.shields.io/badge/React-18.0-blue?logo=react" />
-  <img src="https://img.shields.io/badge/TailwindCSS-3.0-teal?logo=tailwindcss" />
-  <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript" />
-</p>
+Python
 
-### **Backend**
-<p align="left">
-  <img src="https://img.shields.io/badge/Django-REST%20Framework-green?logo=django" />
-  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python" />
-  <img src="https://img.shields.io/badge/JWT-Authentication-orange" />
-</p>
+DSA
 
-### **Database**
-<p align="left">
-  <img src="https://img.shields.io/badge/SQLite-Database-lightgrey?logo=sqlite" />
-</p>
+DBMS
 
-### **Tools**
-<p align="left">
-<img src="https://img.shields.io/badge/GitHub-Version%20Control-black?logo=github" />
-<img src="https://img.shields.io/badge/Postman-API%20Testing-orange?logo=postman" />
-<img src="https://img.shields.io/badge/VSCode-Editor-blue?logo=visualstudiocode" />
-</p>
+Cloud
 
----
-Frontend (React)
-⇅ REST API
-Backend (Django + DRF)
-⇅
-Database (SQLite)
-⇅
-Media Storage (Resumes / Certificates)
+Aptitude
 
----
+Downloadable PDF notes and guides
 
-## 📡 **Core API Endpoints**
+🧪 Assessment Module
 
-| Feature | Method | Endpoint |
-|--------|--------|----------|
-| Send OTP | POST | `/send-otp-registration/` |
-| Login OTP | POST | `/send-otp-login/` |
-| Verify OTP | POST | `/verify-otp/` |
-| Register | POST | `/register/` |
-| Skills | GET | `/skills/` |
-| Add Skill | POST | `/skills/add/` |
-| Delete Skill | DELETE | `/skills/delete/<id>/` |
-| Upload Resume | POST | `/resume/upload/` |
-| Get Resume | GET | `/resume/download/` |
-| Job Listing | GET | `/jobs/skillbased/` |
+Direct links to HackerRank certifications
 
----
+Skill tracking via external assessments
 
-## 📈 **Project Outcomes**
-- End-to-end full-stack web app  
-- Clean UI with skill-based job filtering  
-- OTP + JWT secured system  
-- Resume & skill certificates working flawlessly  
-- Strong database design with ORM  
+📞 Help & Support
 
----
+Simple support section
 
-## 👨‍💻 **Developed By**
+Email-based help
 
-### **Team 57 – SR University**
+FAQs
 
-- D. Srawik  
-- **Md. Moiz Ur Rehman**  
-- V. Sai Raj  
-- R. Shrujan  
-- A. Vaninath  
+🛠️ Tech Stack
+Frontend
 
-**Guided by:**  
-🎓 *Dr. S. Jamalaiah, Assistant Professor, School of CS & AI*
+ReactJS
 
----
+JavaScript (ES6+)
 
-## ⭐ **Show Your Support**
+Tailwind CSS
 
-If you like this project, please:
+Axios
 
-⭐ **Star this repository**  
-🍴 **Fork it**  
-🐛 **Report issues**
+React Router
 
----
+Backend
 
-<p align="center"><b>TalentTrack – Empowering students with smarter job discovery.</b></p>
+Django
 
+Django REST Framework
 
-## 🧩 **System Architecture**
+JWT Authentication
 
+Django ORM
+
+Database
+
+SQLite3 (development)
+
+PostgreSQL (future upgrade)
+
+Tools
+
+VS Code
+
+Git & GitHub
+
+🏗️ System Architecture
+
+Modular, scalable layered architecture
+
+React frontend ↔ Django REST API
+
+Clear separation of concerns
+
+Media storage for resumes & certificates
+
+JWT-based secure communication
+🔐 API Endpoints (Key Endpoints)
+Feature	Endpoint	Method	Description
+Send OTP	/send-otp-registration/	POST	For new registration
+Login OTP	/send-otp-login/	POST	OTP login
+Verify OTP	/verify-otp/	POST	Verify user
+Register	/register/	POST	Create user
+Skills	/skills/	GET	Get user skills
+Add Skill	/skills/add/	POST	Add new skill
+Delete Skill	/skills/delete/<id>/	DELETE	Delete skill
+Upload Resume	/resume/upload/	POST	Upload file
+Download Resume	/resume/download/	GET	Get resume
+Jobs	/jobs/skillbased/	GET	Skill-based job listings
+🧩 Core Modules Implemented
+
+Authentication (OTP + JWT)
+
+Resume Management
+
+Skills with certificate verification
+
+Interview Prep Module
+
+Assessments (HackerRank)
+
+Skill-Based Job Filtering
+
+Notifications & Settings
+
+🧪 Result Highlights
+
+Complete working full-stack web app
+
+Clean UI with fast loading
+
+Resume upload/download fully functional
+
+Skill-based filtering working as expected
+
+OTP + JWT authentication verified
+
+Interview prep resources accessible
+
+Modular and extendable backend
+
+📈 Learning Outcomes
+
+Full-stack development expertise
+
+Django REST API design
+
+State management in React
+
+File handling & media storage
+
+JWT authentication architecture
+
+External platform integration (HackerRank)
+
+Secure user data practices
+
+Problem-solving & debugging skills
+
+Professional documentation & planning
+
+🚧 Challenges Faced
+
+OTP timing & expiry handling
+
+Authentication session issues before JWT
+
+Resume upload failures due to file settings
+
+CORS issues between React & Django
+
+Efficient job filtering logic
+All challenges were resolved with stable solutions during development.
+
+🔮 Future Scope
+
+TalentTrack can be extended to support:
+
+AI-powered job recommendations
+
+Course suggestions based on skill gap
+
+Internship portal
+
+Recruiter dashboards
+
+Virtual career fairs
+
+Mobile App (React Native)
+
+Industry job API integrations
+
+Explainable AI-based job matching
+
+Student–recruiter communication system
+
+TalentTrack aims to grow into a complete employability ecosystem.
