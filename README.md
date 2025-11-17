@@ -1,70 +1,184 @@
-# Getting Started with Create React App
+<!-- PROJECT LOGO -->
+<p align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/3135/3135692.png" alt="Logo" width="120">
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">🎯 TalentTrack – Job Search & Recruitment Platform</h1>
 
-## Available Scripts
+<p align="center">
+  A student-centric job search platform built using <b>React + Django</b>, offering skill-based job filtering,<br/>
+  resume management, secure OTP authentication, interview preparation & more.
+</p>
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 **Badges**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18.0-blue?logo=react" />
+  <img src="https://img.shields.io/badge/Django-REST%20API-green?logo=django" />
+  <img src="https://img.shields.io/badge/SQLite-Database-blue?logo=sqlite" />
+  <img src="https://img.shields.io/badge/Status-Active-success" />
+  <img src="https://img.shields.io/badge/Full--Stack-Project-orange" />
+  <img src="https://img.shields.io/badge/License-Open%20Source-purple" />
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📌 **Overview**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+TalentTrack is a full-stack web platform designed to simplify job searching for **students and fresh graduates**.  
+Instead of recruiter-centric portals, TalentTrack provides:
 
-### `npm run build`
+✔ Skill-matched job recommendations  
+✔ Resume upload & management  
+✔ Interview preparation resources  
+✔ Simple & transparent UI/UX  
+✔ OTP + JWT secure authentication  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🖼️ **Project Preview (Screenshots)**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> You can upload real screenshots later — placeholders added.
 
-### `npm run eject`
+| Home Page | Resume Upload | Job Listings |
+|----------|---------------|--------------|
+| ![Home](https://via.placeholder.com/300x160?text=Home+Screenshot) | ![Resume](https://via.placeholder.com/300x160?text=Resume+Upload) | ![Jobs](https://via.placeholder.com/300x160?text=Job+Listings) |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🌟 **Key Features**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🔐 **Authentication**
+- Email-based OTP login
+- JWT-secured sessions
+- Protected user routes
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🧠 **Skills & Certificates**
+- Add / delete / update user skills  
+- Upload certificates (PDF/JPG)  
+- Verified skill tracking  
+- Real-time job filtering based on skills  
 
-## Learn More
+### 📄 **Resume Module**
+- Upload, update, download resumes  
+- Secure media handling in Django  
+- Validations on file format & size  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 💼 **Job Search**
+- Personalized job recommendations  
+- Clean job card UI  
+- "Apply Now" redirects  
+- Search & filtering  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🎓 **Interview Preparation**
+- Topic-wise structured content  
+- PDFs for: Java, Python, DSA, DBMS, Cloud, Aptitude  
 
-### Code Splitting
+### 🧪 **Assessments**
+- HackerRank certification redirect  
+- Track assessment attempts  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 💬 **Help & Support**
+- FAQ  
+- Support email  
+- Simple contact workflow  
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🛠️ **Tech Stack**
 
-### Making a Progressive Web App
+### **Frontend**
+<p align="left">
+  <img src="https://img.shields.io/badge/React-18.0-blue?logo=react" />
+  <img src="https://img.shields.io/badge/TailwindCSS-3.0-teal?logo=tailwindcss" />
+  <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript" />
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### **Backend**
+<p align="left">
+  <img src="https://img.shields.io/badge/Django-REST%20Framework-green?logo=django" />
+  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python" />
+  <img src="https://img.shields.io/badge/JWT-Authentication-orange" />
+</p>
 
-### Advanced Configuration
+### **Database**
+<p align="left">
+  <img src="https://img.shields.io/badge/SQLite-Database-lightgrey?logo=sqlite" />
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### **Tools**
+<p align="left">
+<img src="https://img.shields.io/badge/GitHub-Version%20Control-black?logo=github" />
+<img src="https://img.shields.io/badge/Postman-API%20Testing-orange?logo=postman" />
+<img src="https://img.shields.io/badge/VSCode-Editor-blue?logo=visualstudiocode" />
+</p>
 
-### Deployment
+---
+Frontend (React)
+⇅ REST API
+Backend (Django + DRF)
+⇅
+Database (SQLite)
+⇅
+Media Storage (Resumes / Certificates)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 📡 **Core API Endpoints**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| Feature | Method | Endpoint |
+|--------|--------|----------|
+| Send OTP | POST | `/send-otp-registration/` |
+| Login OTP | POST | `/send-otp-login/` |
+| Verify OTP | POST | `/verify-otp/` |
+| Register | POST | `/register/` |
+| Skills | GET | `/skills/` |
+| Add Skill | POST | `/skills/add/` |
+| Delete Skill | DELETE | `/skills/delete/<id>/` |
+| Upload Resume | POST | `/resume/upload/` |
+| Get Resume | GET | `/resume/download/` |
+| Job Listing | GET | `/jobs/skillbased/` |
+
+---
+
+## 📈 **Project Outcomes**
+- End-to-end full-stack web app  
+- Clean UI with skill-based job filtering  
+- OTP + JWT secured system  
+- Resume & skill certificates working flawlessly  
+- Strong database design with ORM  
+
+---
+
+## 👨‍💻 **Developed By**
+
+### **Team 57 – SR University**
+
+- D. Srawik  
+- **Md. Moiz Ur Rehman**  
+- V. Sai Raj  
+- R. Shrujan  
+- A. Vaninath  
+
+**Guided by:**  
+🎓 *Dr. S. Jamalaiah, Assistant Professor, School of CS & AI*
+
+---
+
+## ⭐ **Show Your Support**
+
+If you like this project, please:
+
+⭐ **Star this repository**  
+🍴 **Fork it**  
+🐛 **Report issues**
+
+---
+
+<p align="center"><b>TalentTrack – Empowering students with smarter job discovery.</b></p>
+
+
+## 🧩 **System Architecture**
+
