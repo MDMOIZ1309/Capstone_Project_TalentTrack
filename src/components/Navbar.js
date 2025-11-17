@@ -92,10 +92,10 @@ function Navbar() {
                         <NotificationsDropdown />
                     </div>
 
-                    {/* Settings */}
+                    {/* Settings 
                     <div className="icon" onClick={() => navigate("/settings")}>
                         <FaCog size={22} title="Settings" />
-                    </div>
+                    </div>*/}
 
                     {/* Profile Dropdown */}
                     <div
